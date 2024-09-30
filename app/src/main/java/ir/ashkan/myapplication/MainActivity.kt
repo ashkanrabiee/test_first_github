@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        android.widget.Toast.makeText(this, "ali baba", Toast.LENGTH_SHORT).show()
     }
 }
